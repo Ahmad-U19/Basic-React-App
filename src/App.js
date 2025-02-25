@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Greet from './Greet';
 
 function App() {
   return (
-   <div className="nam">
-      <h1>
-        Ahmad Uppal    
-      </h1>
+   <div className="App">
+    <Greet />
    </div>
   );
 }
