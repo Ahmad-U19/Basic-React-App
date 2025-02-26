@@ -5,7 +5,9 @@ import Greet from './Greet';
 function App() {
   return (
    <div className="App">
-    <Greet />
+    <Greet name='Ahmad' heroName='Uppal' />
+    <Greet name='Abdullah' heroName='Chitta' />
+    <Greet name='Zohaib' heroName='Moulvi' />
    </div>
   );
 }
