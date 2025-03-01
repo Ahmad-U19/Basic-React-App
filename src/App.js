@@ -1,12 +1,14 @@
 import './App.css';
-import Greet from './Greet'
 import Navbar from './Navbar';
+import TextForms from './TextForms'
 
 function App() {
   return (
   <>
     <Navbar title='Text Utils'/>
-    <Greet name="Ahmad" heroName='Uppal' />
+    <div className="container">
+    <TextForms heading='Enter Your Text To Analyze' />
+    </div>
   </>
   );
 }
